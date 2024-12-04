@@ -1,7 +1,6 @@
 {
   "name": "portafolio",
   "homepage": "https://bowensito.github.io/miportafolio",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
