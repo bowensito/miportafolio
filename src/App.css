@@ -25,13 +25,9 @@ header {
   text-align: center;
 }
 
-section.container {
-  background-color: #e0e0e0;
-  padding: 4rem 0;
-}
 
 .card {
-  background-color: #ffffff;
+  background-color: #ffffffc4;
   border: 1px solid #dcdcdc;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
@@ -63,25 +59,17 @@ section.container {
   border-color: #a2afb5;
 }
 
-section.bg-light {
-  background-color: #000000;
-  padding: 4rem 0;
-}
-
-section.bg-light p {
-  color: #333333;
-  font-size: 1.1rem;
-}
-
 .text-primary {
   color: #7b8b8f;
   font-weight: bold;
 }
 
 footer {
-  background-color: #3c3f41;
   color: #000000;
   width: 100%;
   text-align: center;
   padding: 1.5rem 0;
 }
+
+
+

@@ -14,9 +14,8 @@ function App() {
 
       {/* Proyectos */}
       <section>
-        <h2 className="text-center mb-">PROYECTOS</h2>
+        <h2 className="text-center mb-4">PROYECTOS</h2>
         <div className="row">
-
           {/* Proyecto 1 */}
           <div className="col-md-4">
             <div className="card mb-4">
@@ -42,31 +41,46 @@ function App() {
           </div>
 
           {/* Proyecto 3 */}
-          <div className="col-md-4">
-            <div className="card mb-4">
-              <img src="#" className="card-img-top" alt="Proyecto 3" />
-              <div className="card-body">
-                <h5 className="card-title">Proyecto Laravel</h5>
-                <p className="card-text">Uso de laravel destinado a backend</p>
-                <a href="#" className="btn btn-primary">Ver proyecto</a>
+                <div className="col-md-4">
+                <div className="card mb-4">
+                  <img src="#" className="card-img-top" alt="Proyecto 3" />
+                  <div className="card-body">
+                  <h5 className="card-title">Proyecto Laravel</h5>
+                  <p className="card-text">Uso de laravel destinado a backend</p>
+                  <a href="#" className="btn btn-primary">Ver proyecto</a>
+                  </div>
+                </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+              </section>
 
-       {/* Contacto */}
-<section className="py-0">
-  <div className="container text-center">
-    <h2>Contacto</h2>
-    <p><span className="text-primary">https://github.com/bowensito</span></p>
-    <p><span className="text-primary">ignacio.earancibia@gmail.com</span></p>
-  </div>
-</section>
+              {/* Conocimientos y Contacto paralelos */}
+              <section className="py-5 mt-5">
+              <div className="container d-flex justify-content-between">
+                {/* Conocimientos */}
+                <div className="col-md-5">
+                <h2 className="text-center mb-4">Conocimientos</h2>
+                <ul>
+                  <li><strong>JavaScript</strong></li>
+                  <li><strong>React</strong></li>
+                  <li><strong>Node.js</strong></li>
+                  <li><strong>Python</strong></li>
+                  <li><strong>MongoDB</strong></li>
+                </ul>
+                </div>
 
-      {/* Footer */}
-      <footer className="bg-dark text-white text-center py-3">
-        <p>&copy; 2024 Ignacio Arancibia. Todos los derechos reservados.</p>
+                {/* Contacto */}
+                <div className="col-md-5">
+                <h2 className="text-center mb-4">Contacto</h2>
+                <p><span className="text-primary">https://github.com/bowensito</span></p>
+                <p><span className="text-primary">ignacio.earancibia@gmail.com</span></p>
+                </div>
+              </div>
+              </section>
+
+              {/* Footer */}
+      <footer className="text-white text-center py-3">
+        <p>&copy; 2024 Ignacio Arancibia.</p>
       </footer>
     </div>
   );
