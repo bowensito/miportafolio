@@ -46,8 +46,8 @@ function App() {
             <div className="card mb-4">
               <img src="#" className="card-img-top" alt="Proyecto 3" />
               <div className="card-body">
-                <h5 className="card-title">Nuevo Proyecto</h5>
-                <p className="card-text">Descripción del proyecto en blanco.</p>
+                <h5 className="card-title">Proyecto Laravel</h5>
+                <p className="card-text">Uso de laravel destinado a backend</p>
                 <a href="#" className="btn btn-primary">Ver proyecto</a>
               </div>
             </div>
