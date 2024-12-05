@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import project1 from './assets/project1.png';
 import project2 from './assets/project2.png';
+import project3 from './assets/project3.png';
 
 function App() {
   return (
@@ -43,11 +44,11 @@ function App() {
           {/* Proyecto 3 */}
                 <div className="col-md-4">
                 <div className="card mb-4">
-                  <img src="#" className="card-img-top" alt="Proyecto 3" />
+                  <img src={project3} className="card-img-top" alt="Proyecto 3" />
                   <div className="card-body">
                   <h5 className="card-title">Proyecto Laravel</h5>
                   <p className="card-text">Uso de laravel destinado a backend</p>
-                  <a href="#" className="btn btn-primary">Ver proyecto</a>
+                  <a href="https://bowensito.github.io/peliculas-laravel" className="btn btn-primary">Ver proyecto</a>
                   </div>
                 </div>
                 </div>
